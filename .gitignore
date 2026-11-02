@@ -1,0 +1,22 @@
+# Credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.token
+**/credentials.json
+**/secrets.*
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+# Personal and raw data
+dados/privados/
+dados/brutos/
+**/*_identificavel.csv
+**/*_candidatos_nominais.csv
