@@ -1,0 +1,9 @@
+{
+  "marco_t0": "A13",
+  "marco_t1": "A15",
+  "mesmas_305_pessoas": true,
+  "mesmas_610_observacoes_documentais": true,
+  "divergencias_componentes": 0,
+  "validacao_externa": false,
+  "estado": "replay tautologico, nenhum teste preditivo interanual"
+}
