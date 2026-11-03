@@ -15,3 +15,11 @@ As 305 pessoas publicadas não equivalem às 354 inscrições nem ao número de 
 **Atenção ao GitHub público:** este repositório contém apenas código e agregados não identificáveis. A base completa e dados documentais de trabalho permanecem no Deepnote. Não atribuir dificuldade empírica às questões nem probabilidades pessoais a distribuições sintéticas.
 
 **Dados reprodutíveis:** Deepnote, projeto FUBOG 2026 — PSU-GO; caminhos `Fase_B/saida_B/` e `Fase_D/`. A publicação via GitHub não é sincronização automática.
+
+
+## Correção documental — gabarito pós-recursos (03/11/2026)
+O gabarito **preliminar retificado** (24/11/2025) foi reextraído e comparado integralmente: 400/400 respostas A09 iguais às do banco. O comunicado pós-recursos (11/12/2025) confirma divulgação de gabaritos definitivos, **mas não traz em seu PDF a lista de anulações nem uma matriz das 400 respostas finais**. A listagem de supostas anulações anteriormente mencionada não está documentalmente confirmada e **não foi aplicada**.
+
+Fontes e auditorias: [documentação](docs/RETIFICACAO_GABARITO_POS_RECURSOS.md), [400 posições preliminares verificadas](fontes/gabarito_preliminar_retificado_2025-11-24_400.csv), [auditoria JSON](fontes/auditoria_status_definitivo_2026.json).
+
+Fase E: contrafactuais observacionais estão sendo reavaliados; **portão E→F ainda não liberado**. Não há provas suficientes de classificação real ou de dificuldade empírica por item.
