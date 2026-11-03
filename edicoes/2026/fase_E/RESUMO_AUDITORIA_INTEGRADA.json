@@ -1,0 +1,13 @@
+{
+  "edicao": "FUBOG_INGRESSO_2026",
+  "fase": "E",
+  "decisao": "approved_with_caveats",
+  "status_E21": "limitado_sem_alvo_temporal",
+  "status_E24": "cumprido_com_ressalva_dois_ambientes",
+  "controle_local": "246/246",
+  "controle_multinomial": "12/12",
+  "contrafactuais_deepnote": "30 cenarios, 156 testes",
+  "reproducao": "7 CSV locais + 4 Deepnote por SHA-256",
+  "arquivo_zip_sha256": "f7f670b991a4a7171689b552a2a61a43828f98f26ab9be30b4105496e8cd4ef8",
+  "fase_F_iniciada": false
+}
