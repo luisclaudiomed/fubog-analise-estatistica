@@ -1,0 +1,27 @@
+{
+  "edition": "PSU-GO_2026_FUBOG",
+  "exam_date": "2025-11-23",
+  "verified_release": "2025-11-24",
+  "source_url": "https://www.ceremgoias.org.br/dados/editais/edt0000212-0001503.pdf",
+  "source_label": "Gabarito PRELIMINAR RETIFICADO",
+  "count": 400,
+  "byType": {
+    "1": 100,
+    "2": 100,
+    "3": 100,
+    "4": 100
+  },
+  "previous_B_match": 400,
+  "mismatches": [],
+  "definitive_announcement": "2025-12-11",
+  "definitive_url": "https://www.ceremgoias.org.br/dados/editais/edt0000212-0001519.pdf",
+  "definitive_full_table_found": false,
+  "annulment_list_confirmed": false,
+  "reason": "Comunicado oficial de 11/12 informa gabaritos definitivos, mas não lista números nem alternativas; não aceitar 14/19/26/27 como anuladas sem ato primário",
+  "explicitly_not_applied": [
+    14,
+    19,
+    26,
+    27
+  ]
+}
