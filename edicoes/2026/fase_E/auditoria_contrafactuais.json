@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "observados_distintos": 305,
+  "contrafactuais": 30,
+  "controles_inequacoes": 120,
+  "A13_A15_componentes_iguais": true,
+  "bonus": {
+    "pessoas_publicadas": 305,
+    "n_com_bonus_positivo": 5,
+    "soma_dos_bonus_pontos": 33.370000000000005,
+    "media_bonus_nos_305": 0.10940983606557378,
+    "fracao_bonus_positiva": 0.01639344262295082,
+    "modificacao_mecanica": true,
+    "efeito_causal_de_aprovacao": null
+  },
+  "exemplo_top6": [
+    {
+      "cenario": "final_publicada",
+      "k": 6,
+      "n_publicados": 305,
+      "nota_fronteira": 81.28,
+      "acima_estrito": 5,
+      "empatados_fronteira": 1,
+      "vagas_dentro_empate": 1,
+      "combinacoes_possiveis": 1,
+      "total_ate_empate": 6,
+      "tipo": "ORDENACAO_CONTRAFACTUAL_DE_PUBLICADOS_SEM_DESEMPATE_OFICIAL"
+    },
+    {
+      "cenario": "sem_bonus_objetivo_e_curricular",
+      "k": 6,
+      "n_publicados": 305,
+      "nota_fronteira": 81.1,
+      "acima_estrito": 5,
+      "empatados_fronteira": 1,
+      "vagas_dentro_empate": 1,
+      "combinacoes_possiveis": 1,
+      "total_ate_empate": 6,
+      "tipo": "ORDENACAO_CONTRAFACTUAL_DE_PUBLICADOS_SEM_DESEMPATE_OFICIAL"
+    },
+    {
+      "cenario": "somente_objetiva_sem_bonus",
+      "k": 6,
+      "n_publicados": 305,
+      "nota_fronteira": 72.0,
+      "acima_estrito": 4,
+      "empatados_fronteira": 4,
+      "vagas_dentro_empate": 2,
+      "combinacoes_possiveis": 6,
+      "total_ate_empate": 8,
+      "tipo": "ORDENACAO_CONTRAFACTUAL_DE_PUBLICADOS_SEM_DESEMPATE_OFICIAL"
+    },
+    {
+      "cenario": "somente_etapa1_com_bonus",
+      "k": 6,
+      "n_publicados": 305,
+      "nota_fronteira": 72.0,
+      "acima_estrito": 4,
+      "empatados_fronteira": 4,
+      "vagas_dentro_empate": 2,
+      "combinacoes_possiveis": 6,
+      "total_ate_empate": 8,
+      "tipo": "ORDENACAO_CONTRAFACTUAL_DE_PUBLICADOS_SEM_DESEMPATE_OFICIAL"
+    },
+    {
+      "cenario": "sem_curriculo_mantendo_bonus_objetivo",
+      "k": 6,
+      "n_publicados": 305,
+      "nota_fronteira": 72.0,
+      "acima_estrito": 4,
+      "empatados_fronteira": 4,
+      "vagas_dentro_empate": 2,
+      "combinacoes_possiveis": 6,
+      "total_ate_empate": 8,
+      "tipo": "ORDENACAO_CONTRAFACTUAL_DE_PUBLICADOS_SEM_DESEMPATE_OFICIAL"
+    }
+  ],
+  "retroteste": {
+    "marco_t0": "A13",
+    "marco_t1": "A15",
+    "mesmas_305_pessoas": true,
+    "mesmas_610_observacoes_documentais": true,
+    "divergencias_componentes": 0,
+    "validacao_externa": false,
+    "estado": "replay tautologico, nenhum teste preditivo interanual"
+  },
+  "limite": "nenhum cenário equivale à classificação real nem ao número de matriculados"
+}
