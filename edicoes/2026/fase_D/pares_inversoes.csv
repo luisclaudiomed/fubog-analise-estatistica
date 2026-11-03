@@ -1,0 +1,3 @@
+cenario,pessoas,pares_total,empates_primeira,empates_final,empates_ambas,pares_comparaveis,concordantes,invertidos,taxa_inversao_condicional
+objetiva_sem_bonus,305,46360,1625,93,32,44674,41503,3171,0.0709808837355
+primeira_com_bonus,305,46360,1569,93,32,44730,41703,3027,0.067672702884
