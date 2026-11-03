@@ -1,0 +1,13 @@
+{
+  "resultado": "REPRODUZIDO",
+  "arquivos": 4,
+  "identicos_sha256": 4,
+  "referencia": "Deepnote 305 publicados, A13/A15",
+  "arquivos_sha256": {
+    "contrafactuais_publicados.csv": "27fe0df53031ff71bd3dd6ef8c150c85ff2e40302a558ea45c928d22e852c15d",
+    "retroteste_nao_identificavel.json": "4ce68c129499b28fd3e9958572fecee2d4f371dc32fb37b1b76686e02e93f220",
+    "efeito_bonus_observado.json": "d86acb5db4963406c17a3b1b84d7d71b096fe41d186a3810c7ddac5acc7f9f0c",
+    "auditoria_contrafactuais.json": "45c028de3e08c7df9354a9a8c145ab8739692b4e1feea5700736dbad47bfc4f9"
+  },
+  "aviso": "A fonte histórica do site segue apenas indexada, não binário oficial autenticado"
+}
