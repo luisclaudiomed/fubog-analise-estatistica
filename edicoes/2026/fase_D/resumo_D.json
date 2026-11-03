@@ -1,0 +1,212 @@
+{
+  "edicao": "FUBOG_INGRESSO_2026",
+  "fase": "D",
+  "observados_unicos": 305,
+  "linhas_fontes": 610,
+  "inscricoes_publicadas": 354,
+  "presentes_reais": "DESCONHECIDO",
+  "media_prova_publicados": 58.67704918032787,
+  "dp_prova_publicados": 6.854233906149122,
+  "mediana_final_publicados": 65.45,
+  "media_final_publicados": 65.46055737704918,
+  "P95_final_publicados": 79.26,
+  "inversoes_ordenacao": [
+    {
+      "cenario": "objetiva_sem_bonus",
+      "pessoas": 305,
+      "pares_total": 46360,
+      "empates_primeira": 1625,
+      "empates_final": 93,
+      "empates_ambas": 32,
+      "pares_comparaveis": 44674,
+      "concordantes": 41503,
+      "invertidos": 3171,
+      "taxa_inversao_condicional": 0.07098088373550611
+    },
+    {
+      "cenario": "primeira_com_bonus",
+      "pessoas": 305,
+      "pares_total": 46360,
+      "empates_primeira": 1569,
+      "empates_final": 93,
+      "empates_ambas": 32,
+      "pares_comparaveis": 44730,
+      "concordantes": 41703,
+      "invertidos": 3027,
+      "taxa_inversao_condicional": 0.0676727028839705
+    }
+  ],
+  "correlacoes": [
+    {
+      "pares": "prova_vs_curriculo",
+      "n": 305,
+      "spearman": 0.40052689427343735,
+      "kendall_tau_b": 0.2777539909714397,
+      "pearson": 0.38380496147678966,
+      "tipo": "estatistica_descritiva;amostra_publicada_e_selecionada"
+    },
+    {
+      "pares": "prova_vs_final",
+      "n": 305,
+      "spearman": 0.9599514659398094,
+      "kendall_tau_b": 0.8425624271333396,
+      "pearson": 0.9604375149681755,
+      "tipo": "estatistica_descritiva;amostra_publicada_e_selecionada"
+    },
+    {
+      "pares": "primeira_com_bonus_vs_curriculo",
+      "n": 305,
+      "spearman": 0.3981086696599674,
+      "kendall_tau_b": 0.27685099422891807,
+      "pearson": 0.3806236699809508,
+      "tipo": "estatistica_descritiva;amostra_publicada_e_selecionada"
+    },
+    {
+      "pares": "primeira_com_bonus_vs_final",
+      "n": 305,
+      "spearman": 0.9638149080408179,
+      "kendall_tau_b": 0.849592171762113,
+      "pearson": 0.9650013125071208,
+      "tipo": "estatistica_descritiva;amostra_publicada_e_selecionada"
+    },
+    {
+      "pares": "curriculo_com_bonus_vs_curriculo",
+      "n": 305,
+      "spearman": 1.0,
+      "kendall_tau_b": 1.0,
+      "pearson": 1.0,
+      "tipo": "estatistica_descritiva;amostra_publicada_e_selecionada"
+    },
+    {
+      "pares": "curriculo_com_bonus_vs_final",
+      "n": 305,
+      "spearman": 0.6147645066504863,
+      "kendall_tau_b": 0.43879165502403633,
+      "pearson": 0.6098082142058643,
+      "tipo": "estatistica_descritiva;amostra_publicada_e_selecionada"
+    },
+    {
+      "pares": "bonus_total_vs_curriculo",
+      "n": 305,
+      "spearman": 0.028995709763602783,
+      "kendall_tau_b": 0.023230749656677898,
+      "pearson": 0.020670052716095563,
+      "tipo": "estatistica_descritiva;amostra_publicada_e_selecionada"
+    },
+    {
+      "pares": "bonus_total_vs_final",
+      "n": 305,
+      "spearman": 0.1508437473001223,
+      "kendall_tau_b": 0.12346832415968637,
+      "pearson": 0.15181794760607456,
+      "tipo": "estatistica_descritiva;amostra_publicada_e_selecionada"
+    }
+  ],
+  "bonus": [
+    {
+      "etapa": "bonus_prova",
+      "pessoas_com_bonus": 5,
+      "soma_pontos_bonus": 30.87,
+      "media_bonus_dentre_bonificados": 6.174000000000001,
+      "maxima_observada": 6.48,
+      "n_total": 305
+    },
+    {
+      "etapa": "bonus_curriculo",
+      "pessoas_com_bonus": 5,
+      "soma_pontos_bonus": 2.5,
+      "media_bonus_dentre_bonificados": 0.5000000000000001,
+      "maxima_observada": 0.91,
+      "n_total": 305
+    }
+  ],
+  "models": [
+    {
+      "familia": "beta_binomial_published_moments",
+      "estado": "ajuste_a_dois_momentos_DOS_PUBLICADOS",
+      "media": 58.67704918032787,
+      "desvio": 6.854233906149122,
+      "p_ge_75p6": 0.004547009101802994,
+      "nota": "NAO descreve distribuicao de todos os presentes"
+    },
+    {
+      "familia": "max_entropy_published_moments",
+      "estado": "ajuste_a_dois_momentos_DOS_PUBLICADOS",
+      "media": 58.67704918032787,
+      "desvio": 6.854233906149122,
+      "p_ge_75p6": 0.008084569149503755,
+      "nota": "NAO descreve distribuicao de todos os presentes"
+    },
+    {
+      "familia": "mixture_published_moments",
+      "estado": "ajuste_a_dois_momentos_DOS_PUBLICADOS",
+      "media": 58.67704918032787,
+      "desvio": 6.854233906149122,
+      "p_ge_75p6": 0.007988509515218699,
+      "nota": "NAO descreve distribuicao de todos os presentes"
+    }
+  ],
+  "lp_bounds": [
+    {
+      "limiar_bruto_ge": 63.0,
+      "limite_inferior": 0.0,
+      "limite_superior": 0.7153085824493733,
+      "momento": "media+DP descritivos PUBLICADOS, tratados como exatos",
+      "populacao_real_geral": "NAO_IDENTIFICAVEL"
+    },
+    {
+      "limiar_bruto_ge": 67.5,
+      "limite_inferior": 0.0,
+      "limite_superior": 0.3758469945355203,
+      "momento": "media+DP descritivos PUBLICADOS, tratados como exatos",
+      "populacao_real_geral": "NAO_IDENTIFICAVEL"
+    },
+    {
+      "limiar_bruto_ge": 72.0,
+      "limite_inferior": 0.0,
+      "limite_superior": 0.2088198638673186,
+      "momento": "media+DP descritivos PUBLICADOS, tratados como exatos",
+      "populacao_real_geral": "NAO_IDENTIFICAVEL"
+    },
+    {
+      "limiar_bruto_ge": 75.6,
+      "limite_inferior": 0.0,
+      "limite_superior": 0.14074231779149804,
+      "momento": "media+DP descritivos PUBLICADOS, tratados como exatos",
+      "populacao_real_geral": "NAO_IDENTIFICAVEL"
+    },
+    {
+      "limiar_bruto_ge": 81.0,
+      "limite_inferior": 0.0,
+      "limite_superior": 0.08600919420591534,
+      "momento": "media+DP descritivos PUBLICADOS, tratados como exatos",
+      "populacao_real_geral": "NAO_IDENTIFICAVEL"
+    }
+  ],
+  "internal_holdout": {
+    "treino_n": 214,
+    "teste_n": 91,
+    "corte_bruto": 75.6,
+    "proporcao_observada_teste": 0.0,
+    "proporcao_hipotetica_treino": 0.011333372178883395,
+    "erro_absoluto": 0.011333372178883395,
+    "validade": "somente dentro dos 305 publicados; nao calibracao externa"
+  },
+  "testes": 26,
+  "passaram": 26,
+  "sistema": {
+    "python": "3.13.18",
+    "numpy": "2.4.6",
+    "scipy": "1.15.3"
+  },
+  "riscos": [
+    "ausencia de respostas pessoa×questao",
+    "cadernos oficiais indisponiveis",
+    "gabarito definitivo nao consolidado",
+    "305 publicados != 354 inscritos != presentes",
+    "141 eventos sem vinculo seguro",
+    "notas finais nao constituem ranking oficial",
+    "parametros modelos condicionais apenas aos publicados"
+  ],
+  "nenhuma_fase_E_executada": true
+}
