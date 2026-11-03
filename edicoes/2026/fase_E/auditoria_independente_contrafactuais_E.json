@@ -1,0 +1,11 @@
+{
+  "status": "APROVADO_DENTRO_DOS_305_PUBLICADOS",
+  "registros_checados": 30,
+  "validacoes_independentes": 156,
+  "preserva_empates": true,
+  "N_presentes": "DESCONHECIDO",
+  "classificacao_real": "NAO_RECONSTRUIDA",
+  "bonificacoes_positivas": 5,
+  "aprovacao_Fase_E": "PENDENTE_AVALIACAO_INTEGRADA_COM_MONTE_CARLO",
+  "nota": "A13 e A15 espelhos, nao teste preditivo externo"
+}
